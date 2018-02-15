@@ -1,9 +1,3 @@
-# SimpleLicensing
-A VERY BASIC Go Based Licensing System for Digital Rights Management
-
-Included is a simple Server i built to handle the backend things, a database.sql file (you need to import into MySQL), the main package (License.go), and a example client show you how it could be used.
-
-This is something i put together fast, but it works. Feel free to use it as you please.
 
 # How it Works
 
@@ -35,15 +29,3 @@ Licensing.CheckLicense("{LICESNESSERVER}", {USESSL}, {SILENT})
 # Config.toml Format
 
 * https://pastebin.com/7wBaXcu1
-
-# Packages Used
-* github.com/gorilla/mux
-* github.com/pelletier/go-toml
-* github.com/go-sql-driver/mysql
-
-# Other
-Go is a amazing and powerful programming language. If you already haven't, check it out; https://golang.org/
-
-# Donations
-<img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
-<p align="center">Please Donate To Bitcoin Address: <b>1AEbR1utjaYu3SGtBKZCLJMRR5RS7Bp7eE</b></p>
